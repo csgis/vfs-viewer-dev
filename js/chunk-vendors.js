@@ -1325,6 +1325,17 @@ eval("\nvar $ = __webpack_require__(/*! ../internals/export */ \"./node_modules/
 
 /***/ }),
 
+/***/ "./node_modules/core-js/modules/es.iterator.for-each.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/modules/es.iterator.for-each.js ***!
+  \**************************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+eval("\nvar $ = __webpack_require__(/*! ../internals/export */ \"./node_modules/core-js/internals/export.js\");\nvar iterate = __webpack_require__(/*! ../internals/iterate */ \"./node_modules/core-js/internals/iterate.js\");\nvar aCallable = __webpack_require__(/*! ../internals/a-callable */ \"./node_modules/core-js/internals/a-callable.js\");\nvar anObject = __webpack_require__(/*! ../internals/an-object */ \"./node_modules/core-js/internals/an-object.js\");\nvar getIteratorDirect = __webpack_require__(/*! ../internals/get-iterator-direct */ \"./node_modules/core-js/internals/get-iterator-direct.js\");\n\n// `Iterator.prototype.forEach` method\n// https://tc39.es/ecma262/#sec-iterator.prototype.foreach\n$({ target: 'Iterator', proto: true, real: true }, {\n  forEach: function forEach(fn) {\n    anObject(this);\n    aCallable(fn);\n    var record = getIteratorDirect(this);\n    var counter = 0;\n    iterate(record, function (value) {\n      fn(value, counter++);\n    }, { IS_RECORD: true });\n  }\n});\n\n\n//# sourceURL=webpack://atlas-map-viewer/./node_modules/core-js/modules/es.iterator.for-each.js?");
+
+/***/ }),
+
 /***/ "./node_modules/core-js/modules/es.iterator.map.js":
 /*!*********************************************************!*\
   !*** ./node_modules/core-js/modules/es.iterator.map.js ***!
@@ -1366,6 +1377,17 @@ eval("\n// TODO: Remove from `core-js@4`\n__webpack_require__(/*! ../modules/es.
 
 "use strict";
 eval("\n// TODO: Remove from `core-js@4`\n__webpack_require__(/*! ../modules/es.iterator.filter */ \"./node_modules/core-js/modules/es.iterator.filter.js\");\n\n\n//# sourceURL=webpack://atlas-map-viewer/./node_modules/core-js/modules/esnext.iterator.filter.js?");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/modules/esnext.iterator.for-each.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/core-js/modules/esnext.iterator.for-each.js ***!
+  \******************************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+eval("\n// TODO: Remove from `core-js@4`\n__webpack_require__(/*! ../modules/es.iterator.for-each */ \"./node_modules/core-js/modules/es.iterator.for-each.js\");\n\n\n//# sourceURL=webpack://atlas-map-viewer/./node_modules/core-js/modules/esnext.iterator.for-each.js?");
 
 /***/ }),
 
