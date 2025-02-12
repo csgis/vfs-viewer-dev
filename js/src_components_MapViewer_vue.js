@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var core
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  __name: 'HelpLink',\n  setup(__props, {\n    expose: __expose\n  }) {\n    const openHelp = () => {\n      window.open('https://vfsviewer-docs.vfs-muenchen.de/', '_blank');\n    };\n    __expose({\n      openHelp\n    });\n    const __returned__ = {\n      openHelp\n    };\n    Object.defineProperty(__returned__, '__isScriptSetup', {\n      enumerable: false,\n      value: true\n    });\n    return __returned__;\n  }\n});\n\n//# sourceURL=webpack://atlas-map-viewer/./src/components/HelpLink.vue?./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use%5B0%5D!./node_modules/vue-loader/dist/index.js??ruleSet%5B0%5D.use%5B0%5D");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n  __name: 'HelpLink',\n  setup(__props, {\n    expose: __expose\n  }) {\n    const openHelp = () => {\n      window.open('https://vfs-viewer-docs.csgis.de/', '_blank');\n    };\n    __expose({\n      openHelp\n    });\n    const __returned__ = {\n      openHelp\n    };\n    Object.defineProperty(__returned__, '__isScriptSetup', {\n      enumerable: false,\n      value: true\n    });\n    return __returned__;\n  }\n});\n\n//# sourceURL=webpack://atlas-map-viewer/./src/components/HelpLink.vue?./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use%5B0%5D!./node_modules/vue-loader/dist/index.js??ruleSet%5B0%5D.use%5B0%5D");
 
 /***/ }),
 
